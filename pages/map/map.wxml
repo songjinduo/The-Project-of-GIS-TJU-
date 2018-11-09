@@ -1,0 +1,23 @@
+<!--pages/map/map.wxml-->
+<map
+  id="map" 
+  class="map"
+  enable-zoom="true"
+  longitude="{{longitude}}" 
+  latitude="{{latitude}}" 
+  scale="{{scale}}" 
+  bindtap="tap"
+  controls="{{controls}}" 
+  bindcontroltap="controltap"
+  bindcallouttap="callouttap" 
+  markers="{{markers}}" 
+  bindmarkertap="markertap"  
+  bindpoitap="poitap"
+  bindregionchange="regionchange" 
+  show-location 
+  show-compass
+  include-points="{{markersEye}}" 
+>
+</map>
+
+ 

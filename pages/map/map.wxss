@@ -1,0 +1,9 @@
+/* pages/map/map.wxss */
+.map {
+  height:100vh;
+  width:100vw;
+}
+.map-callout{
+  padding:6px 12px;
+  color: #fff;
+}

@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/warning/warning",
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#40a7e7",
+    "navigationBarTitleText": "Quiet Weather",
+    "navigationBarTextStyle": "light"
+  },
+  "cloud": true
+}
